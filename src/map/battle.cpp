@@ -8874,11 +8874,23 @@ static const struct _battle_data {
 	{ "mob_nopc_move_rate",                 &battle_config.mob_nopc_move_rate,              100,    0,    100,              },
 	{ "boss_nopc_idleskill_rate",           &battle_config.boss_nopc_idleskill_rate,        100,    0,    100,              },
 	{ "boss_nopc_move_rate",                &battle_config.boss_nopc_move_rate,             100,    0,    100,              },
+	{ "bg_eAmod_mode",                      &battle_config.bg_eAmod_mode,                   1,      0,      1,              },
+	{ "bg_idle_announce",                   &battle_config.bg_idle_announce,                0,      0,      INT_MAX,        },
+	{ "bg_idle_autokick",                   &battle_config.bg_idle_autokick,                0,      0,      INT_MAX,        },
+	{ "bg_reward_rates",                    &battle_config.bg_reward_rates,                 100,    0,      INT_MAX,        },
+	{ "bg_reportafk_leaderonly",            &battle_config.bg_reportafk_leaderonly,         1,      0,      1,              },
+	{ "bg_queue2team_balanced",             &battle_config.bg_queue2team_balanced,          1,      0,      1,              },
+	{ "bg_queue_onlytowns",                 &battle_config.bg_queue_onlytowns,              1,      0,      1,              },
+	{ "bg_order_behavior",                  &battle_config.bg_order_behavior,               1,      0,      1,              },
+	{ "bg_reserved_char_id",                &battle_config.bg_reserved_char_id,             999996, 0,      INT_MAX,        },
+	{ "woe_reserved_char_id",				&battle_config.woe_reserved_char_id,            999997, 0,      INT_MAX,        },
+	{ "bg_can_trade",				        &battle_config.bg_can_trade,                    1,      0,      1,              },
+	{ "bg_double_login",				    &battle_config.bg_double_login,                 1,      0,      1,              },
 	{ "hom_idle_no_share",                  &battle_config.hom_idle_no_share,               0,      0,      INT_MAX,        },
 	{ "devotion_standup_fix",               &battle_config.devotion_standup_fix,            1,      0,      1,              },
 	{ "feature.bgqueue",                    &battle_config.feature_bgqueue,                 1,      0,      1,              },
 	{ "homunculus_exp_gain",                &battle_config.homunculus_exp_gain,             10,     0,      100,            },
-
+	
 #include "../custom/battle_config_init.inc"
 };
 

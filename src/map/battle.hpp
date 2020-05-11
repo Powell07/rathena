@@ -670,6 +670,18 @@ struct Battle_Config
 	int mob_nopc_move_rate;
 	int boss_nopc_idleskill_rate;
 	int boss_nopc_move_rate;
+	int bg_idle_announce;
+	int bg_idle_autokick;
+	int bg_reportafk_leaderonly;
+	int bg_queue2team_balanced;
+	int bg_reward_rates;
+	int bg_queue_onlytowns;
+	int bg_order_behavior;
+	int bg_eAmod_mode;
+	int bg_reserved_char_id;
+	int woe_reserved_char_id;
+	int bg_can_trade;
+	int bg_double_login;
 	int hom_idle_no_share;
 	int devotion_standup_fix;
 	int feature_bgqueue;
